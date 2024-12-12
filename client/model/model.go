@@ -18,6 +18,7 @@ type Host struct {
 	Name            string
 	Platform        string
 	PlatformVersion string
+	IP_Address      string
 	CPU             []string
 	MemTotal        uint64
 	SwapTotal       uint64

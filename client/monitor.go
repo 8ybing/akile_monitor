@@ -75,6 +75,7 @@ func GetHost() *model.Host {
 	ret.Arch = hi.KernelArch
 	ret.Virtualization = hi.VirtualizationSystem
 	ret.BootTime = hi.BootTime
+	ret.IP_Address = getip()
 	ci, err := cpu.Info()
 	if err != nil {
 		log.Println("cpu.Info error:", err)
