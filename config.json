@@ -7,5 +7,6 @@
   "update_uri": "/monitor",
   "web_uri": "/ws",
   "hook_token": "hook_token",
-  "tg_chat_id": 0
+  "tg_chat_id": 0,
+  "tcping_address": "10.0.19.222:22"
 }

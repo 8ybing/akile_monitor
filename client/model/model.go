@@ -9,6 +9,7 @@ type HostState struct {
 	NetInSpeed     uint64
 	NetOutSpeed    uint64
 	Uptime         uint64
+	Delay          uint64
 	Load1          float64
 	Load5          float64
 	Load15         float64
